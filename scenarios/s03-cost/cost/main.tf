@@ -13,7 +13,7 @@ terraform {
 
 locals {
   # Base branch: "base". PR branch: "pr".
-  stage = "base"
+  stage = "pr"
 }
 
 provider "aws" {
