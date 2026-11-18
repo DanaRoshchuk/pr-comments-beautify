@@ -5,7 +5,7 @@ terraform {
 
 locals {
   # Base branch: "base". PR branch: "pr". Fix commit: "fixed".
-  stage = "base"
+  stage = "pr"
 }
 
 resource "terraform_data" "guarded" {
